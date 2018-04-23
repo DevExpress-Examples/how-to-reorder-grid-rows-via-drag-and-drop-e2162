@@ -1,0 +1,11 @@
+﻿<UserControl x:Class="SilverlightApplication1.MainPage" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:grid="clr-namespace:DevExpress.AgDataGrid;assembly=DevExpress.AgDataGrid.v10.1" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" d:DesignWidth="640" d:DesignHeight="480">
+  <Grid x:Name="LayoutRoot">
+        <grid:AgDataGrid x:Name="dataGrid" AllowEditing="False">
+            <grid:AgDataGrid.Columns>
+                <grid:AgDataGridColumn FieldName="Value" AllowSorting="False" />
+                <grid:AgDataGridColumn FieldName="SortOrder" SortOrder="Ascending" Visible="False" />
+            </grid:AgDataGrid.Columns>
+        </grid:AgDataGrid>
+        <Canvas x:Name="DragSurface" />
+    </Grid>
+</UserControl>
