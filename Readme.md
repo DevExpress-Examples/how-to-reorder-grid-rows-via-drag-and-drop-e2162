@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * [DropController.cs](./CS/SilverlightApplication1/DropController.cs) (VB: [DropController.vb](./VB/SilverlightApplication1/DropController.vb))
-* [MainPage.xaml](./CS/SilverlightApplication1/MainPage.xaml) (VB: [MainPage.xaml.vb](./VB/SilverlightApplication1/MainPage.xaml.vb))
+* [MainPage.xaml](./CS/SilverlightApplication1/MainPage.xaml) (VB: [MainPage.xaml](./VB/SilverlightApplication1/MainPage.xaml))
 * [MainPage.xaml.cs](./CS/SilverlightApplication1/MainPage.xaml.cs) (VB: [MainPage.xaml.vb](./VB/SilverlightApplication1/MainPage.xaml.vb))
 <!-- default file list end -->
 # How to reorder grid rows via drag-and-drop
